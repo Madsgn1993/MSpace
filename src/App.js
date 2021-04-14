@@ -1,13 +1,20 @@
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import MSpace from './component/MSpace'
 
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+
+class App extends Component {
+  render(){
+    
+    return (
+      <div className="App">
+
+          <MSpace></MSpace>
+        
+      </div>
+    );
+  }
 }
 
 export default App;
