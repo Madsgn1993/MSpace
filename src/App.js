@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
-import MSpace from './component/MSpace'
+import Home from './component/pages/Home';
+import Epilogue from './component/pages/Epilogue';
+
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 
 
@@ -8,11 +11,13 @@ class App extends Component {
   render(){
     
     return (
-      <div className="App">
-
-          <MSpace></MSpace>
-        
-      </div>
+      <BrowserRouter>
+      <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route exact path= "/Epilogue" component = {Epilogue}/>
+          </Switch>
+      </BrowserRouter>
+            
     );
   }
 }
