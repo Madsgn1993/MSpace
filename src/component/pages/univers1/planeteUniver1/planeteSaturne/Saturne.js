@@ -1,13 +1,14 @@
 import React from "react";
 import StructureQuiz from "../../../../elementQuizz/StructureQuiz"
 import TabQuestionSaturn from "../../../../../data/QuestionReponseSaturn";
-import IlluSaturne from "./IlluSaturne"
+import IlluPlaneteSaturne from "./IlluPlaneteSaturne"
 //importer Tab Question Saturn
 const Saturne = () => {
 
   return (
     <div>
-      <IlluSaturne/>
+      
+      <IlluPlaneteSaturne/>
       <StructureQuiz Question="Titre Question"></StructureQuiz>
     </div>
   );

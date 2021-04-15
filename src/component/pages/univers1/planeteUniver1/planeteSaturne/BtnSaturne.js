@@ -1,17 +1,16 @@
 import React from "react";
 import { Route, NavLink } from "react-router-dom";
 import Saturne from "./Saturne";
+import IlluPlaneteSaturne from "./IlluPlaneteSaturne";
 
 const BtnSaturne = () => {
   return (
-    <ul>
-      <li>
-        <NavLink to="/Saturne" replace>
-          Quizz Saturne
-        </NavLink>
-        <Route path="/Saturne" component={Saturne} />
-      </li>
-    </ul>
+    <div className="rigth">
+      <NavLink to="/Saturne" replace>
+        <IlluPlaneteSaturne />
+      </NavLink>
+      <Route path="/Saturne" component={Saturne} />
+    </div>
   );
 };
 

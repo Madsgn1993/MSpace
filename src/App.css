@@ -1,53 +1,74 @@
 
-
-#ContentMSpace{
-
-
-  border: 5px solid #ffc300 ;
-  height: 95vh;
-  width: 45vw;
-  left: 25%;
-  position:relative;
-  top: 2%;
+li{
 
 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
 
 }
 
+h1{
 
-#BtnGoApp{
-
-  position: relative;
-  left: 22%;
-  top: 65%;
   margin: 0;
 
 }
 
-#fusee{
+#ContentMSpace {
+  border: 5px solid #ffc300;
+  height: 95vh;
+  width: 45vw;
+  left: 25%;
+  position: relative;
+  top: 2%;
+}
 
+#BtnGoApp {
+  position: relative;
+  left: 22%;
+  top: 65%;
+  margin: 0;
+}
 
+#fusee {
   height: 150px;
   width: 125px;
   left: 42%;
   position: relative;
   top: 50%;
-
 }
 
 
+#componentUnivers1{
 
 
+  background-color: #2b0c3a;
+  height: 100vh;
+
+}
 /*---------------CLASS-----------------------------*/
 .App {
- 
-  
   background-color: #2b0c3a;
   height: 100vh;
   width: 100vw;
+}
+.IlluPlanete {
+  height: 250px;
+  width: 250px;
+}
+
+.left{
+  position: absolute;
+  left:5%;
+  top: 25%;
+}
+
+.rigth{
+
+  position: absolute;
+  right:10%;
+  top: 50%;
 
 
 }
-
-
-
