@@ -6,7 +6,7 @@ const BtnVersUniver = () => {
   return (
     <div>
       <ul>
-        <li>
+        <li id="liUnivers">
           <NavLink to="/Univers1" replace>
             Demarrage Vers L'Univers 1
           </NavLink>

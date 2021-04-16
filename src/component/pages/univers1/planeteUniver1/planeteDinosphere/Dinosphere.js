@@ -1,6 +1,6 @@
 import React from "react";
 import StructureQuiz from '../../../../elementQuizz/StructureQuiz'
-import IlluPLaneteDinosphere from './IlluPlaneteDinosphere'
+import BossDino from '../planeteDinosphere/BossDino'
 
 
 const Dinosphere = () =>{
@@ -9,8 +9,8 @@ const Dinosphere = () =>{
 
 
         <div>
-            <IlluPLaneteDinosphere/>
-            <StructureQuiz Question="Quiz Dino"></StructureQuiz>
+            <BossDino/>
+            <StructureQuiz Question="Quiz Dino" ></StructureQuiz>
         </div>
 
 

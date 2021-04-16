@@ -1,13 +1,13 @@
 import React from "react";
 
-const StructureQuiz = (SrcImg, AltImg, Question) => {
+const StructureQuiz = (Reponse1, Reponse2, Reponse3, Question) => {
 
   return (
     <div>
 
-      <div>
+      <div id="contentQuiz">
         <h2>{Question}</h2>
-        <p>Ceci est une réponse</p>
+        <p>Reponse</p>
      
       </div>
     </div>

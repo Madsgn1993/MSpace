@@ -1,18 +1,19 @@
-
-li{
-
-
+li {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: block;
-
 }
 
-h1{
-
+h1 {
   margin: 0;
+  color: #daf7a6;
+}
 
+a {
+  text-decoration: none;
+  color: #daf7a6;
+  height: 100%;
 }
 
 #ContentMSpace {
@@ -31,22 +32,76 @@ h1{
   margin: 0;
 }
 
-#fusee {
-  height: 150px;
-  width: 125px;
-  left: 42%;
-  position: relative;
-  top: 50%;
+#shurriNashi {
+  height: 380px;
+  width: 250px;
+  left: 40%;
+  position: absolute;
+  top: 30%;
 }
 
+#contentNav {
+  left: 39%;
+  position: absolute;
+  top: 80%;
+}
 
-#componentUnivers1{
+#contentHome {
+  background-color: #0a000f;
+  height: 100vh;
+}
+
+#liNav {
+  border: 1px solid #daf7a6;
+  transition: background-color 0.3s ease;
+  background-color: #581845;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#liNav:hover {
+  opacity: 1;
+  background-color: #ff5733;
+  cursor: pointer;
+}
+
+#liUnivers{
+
+  border: 1px solid #daf7a6;
+  transition: background-color 0.3s ease;
+  background-color: #581845;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  opacity: 0.6;
+  margin-left: 75%;
+  margin-top: 12%;
+  border-radius: 10px;
 
 
+}
+
+#liUnivers:hover {
+  opacity: 1;
+  background-color: #ff5733;
+  cursor: pointer;
+}
+
+#componentUnivers1 {
   background-color: #2b0c3a;
   height: 100vh;
-
 }
+
+#contentQuiz {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+/*----------------SATURNE--------------------*/
+
 /*---------------CLASS-----------------------------*/
 .App {
   background-color: #2b0c3a;
@@ -58,17 +113,44 @@ h1{
   width: 250px;
 }
 
-.left{
+.left {
   position: absolute;
-  left:5%;
+  left: 5%;
   top: 25%;
 }
 
-.rigth{
-
+.rigth {
   position: absolute;
-  right:10%;
+  right: 10%;
   top: 50%;
+}
 
+.bossPlanete {
+  height: 300px;
+  width: 250px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+/*CLASS REETULISABLE!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.couleur1 {
+  background-color: #0a000f;
+}
+.couleur2{
 
+  color: #daf7a6;
+
+}
+.bg-para{
+
+  background-color: #ff5733;
+  padding: 45px;
+  width: 35vw;
+  margin-left: 180px;
+  margin-top:80px ;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 2px #daf7a6 ;
+}
+.height100 {
+  height: 100vh;
 }

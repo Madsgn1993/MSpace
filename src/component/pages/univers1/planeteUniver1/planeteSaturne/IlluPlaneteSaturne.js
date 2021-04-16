@@ -5,7 +5,7 @@ const IlluPlaneteSaturne = () => {
 
     return(
             
-                <img src="images/saturne.png" className="IlluPlanete" alt="Fusée" id="fusee"/>
+                <img src="images/saturne1.png" className="IlluPlanete" alt="Planete Saturn" id="fusee"/>
                 
         
         

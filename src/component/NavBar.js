@@ -4,14 +4,16 @@ import Epilogue from "./pages/epilogue/Epilogue";
 
 const NavBar = () => {
   return (
-    <ul>
-      <li>
-        <NavLink to="/Epilogue" replace>
-          START
-        </NavLink>
-        <Route path="/Epilogue" component={Epilogue} />
-      </li>
-    </ul>
+    <div id="contentNav">
+      <ul>
+        <li id="liNav">
+          <NavLink to="/Epilogue" replace>
+            START
+          </NavLink>
+          <Route path="/Epilogue" component={Epilogue} />
+        </li>
+      </ul>
+    </div>
   );
 };
 
