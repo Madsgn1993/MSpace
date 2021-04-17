@@ -5,7 +5,7 @@ import IlluPlaneteSaturne from "./IlluPlaneteSaturne";
 
 const BtnSaturne = () => {
   return (
-    <div className="rigth">
+    <div id="linkSaturne">
       <NavLink to="/Saturne" replace>
         <IlluPlaneteSaturne />
       </NavLink>

@@ -1,6 +1,8 @@
 import React from "react";
 import BtnSaturne from "./planeteUniver1/planeteSaturne/BtnSaturne"
 import BtnDinosphere from './planeteUniver1/planeteDinosphere/BtnDinosphere'
+import BtnMars from './planeteUniver1/planeteMars/BtnMars'
+import BtnHome from '../../BtnHome/BoutonHome'
 
 const Univers1 = () => {
   return (
@@ -8,6 +10,8 @@ const Univers1 = () => {
       <h1>L'Univers</h1>
       <BtnSaturne/>
       <BtnDinosphere/>
+      <BtnMars/>
+      <BtnHome/>
     </div>
   );
 };
