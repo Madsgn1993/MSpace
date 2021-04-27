@@ -11,7 +11,7 @@ const Univers1 = () => {
       <BtnSaturne/>
       <BtnDinosphere/>
       <BtnMars/>
-      <BtnHome/>
+    
     </div>
   );
 };
